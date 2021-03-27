@@ -27,8 +27,8 @@ type GiftGetRes struct {
 
 ### 测试结果
 
-![]("./images/create.png")
+![](./images/create.png)
 
-![]("./images/get.png")
+![](./images/get.png)
  
 
