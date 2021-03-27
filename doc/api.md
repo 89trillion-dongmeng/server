@@ -5,7 +5,7 @@
 2. 路径	/gift/create
 3. 参数	json 
     ```json
-    {"userid":"1234","count": 10,"gifts": [{"coin": 100}]}
+    {"userId":"1234","count": 10,"gifts": [{"coin": 100}]}
     ```
 4. 返回  json 
     ```json
@@ -22,5 +22,13 @@ type GiftGetRes struct {
 3. 参数	:userId,code 
 4. 返回  json 
     ```json
-    {changes:{"coin": 100},"message":"ok"}
+    {"changes":{"coin": 100},"message":"ok"}
     ```
+
+### 测试结果
+
+![]("./images/create.png")
+
+![]("./images/get.png")
+ 
+
